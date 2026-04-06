@@ -28,7 +28,7 @@ Direct video link: [cosmos-assignment.mp4](assets/demo/cosmos-assignment.mp4)
 - Responsive React UI with active connections, roster, activity feed, and conditional chat panel
 - MongoDB Atlas-backed live session snapshots via Mongoose
 
-## Bonus Features Added
+## Bonus Features 
 
 - Custom uploaded map integrated as the live PixiJS background
 - Wall collision system generated from the map so users cannot walk through blocked areas
