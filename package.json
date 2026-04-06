@@ -1,0 +1,23 @@
+{
+  "name": "virtual-cosmos",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Proximity-based 2D multiplayer cosmos built with React, PixiJS, Express, and Socket.IO.",
+  "scripts": {
+    "dev": "concurrently -n server,client -c cyan,magenta \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "keywords": [
+    "react",
+    "pixijs",
+    "socket.io",
+    "multiplayer",
+    "cosmos"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

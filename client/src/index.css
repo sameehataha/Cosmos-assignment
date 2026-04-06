@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #f8fafc;
+  background:
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.14), transparent 26%),
+    radial-gradient(circle at bottom right, rgba(249, 115, 22, 0.12), transparent 28%),
+    linear-gradient(145deg, #04111f 0%, #0b1d34 42%, #05111f 100%);
+  font-family: 'Space Grotesk', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 18% 20%, rgba(255, 255, 255, 0.08) 0 1px, transparent 1.2px),
+    radial-gradient(circle at 78% 34%, rgba(255, 255, 255, 0.08) 0 1.4px, transparent 1.6px),
+    radial-gradient(circle at 40% 78%, rgba(255, 255, 255, 0.05) 0 1px, transparent 1.3px),
+    radial-gradient(circle at 68% 68%, rgba(255, 255, 255, 0.05) 0 1.2px, transparent 1.5px);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: rgba(245, 158, 11, 0.25);
+  color: #f8fafc;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.32);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.32);
+  border-radius: 999px;
+}

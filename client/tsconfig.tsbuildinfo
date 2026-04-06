@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/components/cosmoscanvas.tsx","./src/hooks/usecosmossession.ts","./src/lib/cosmos.ts","./src/lib/mapcollision.ts"],"version":"6.0.2"}
