@@ -28,6 +28,22 @@ Direct video link: [cosmos-assignment.mp4](assets/demo/cosmos-assignment.mp4)
 - Responsive React UI with active connections, roster, activity feed, and conditional chat panel
 - MongoDB Atlas-backed live session snapshots via Mongoose
 
+## Bonus Features Added
+
+- Custom uploaded map integrated as the live PixiJS background
+- Wall collision system generated from the map so users cannot walk through blocked areas
+- MongoDB Atlas persistence for live session snapshots
+- In-memory fallback support when MongoDB is unavailable
+- Join overlay for entering the cosmos with a display name
+- Auto-generated guest names when no name is provided
+- Local storage support for remembering the last used display name
+- Nearby connections panel for currently active proximity links
+- Live roster panel showing all users and active links
+- Activity feed for connect and disconnect events
+- Safe spawn positioning so users do not spawn inside walls
+- Demo assets section with screenshots and walkthrough video
+- Git LFS setup for storing the demo video safely in GitHub
+
 ## Tech Stack
 
 - Frontend: React, Vite, TypeScript, PixiJS, Tailwind CSS
