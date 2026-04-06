@@ -178,6 +178,10 @@ npm run build
 
 ## API / Socket Events
 
+### HTTP API
+
+- `GET /api/health` returns server status, MongoDB connection status, and world configuration
+
 ### Client to server
 
 - `user:join`
